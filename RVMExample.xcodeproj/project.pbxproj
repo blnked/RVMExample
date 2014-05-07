@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7252427E746F43FC8BDE186B /* libPods-RVMExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDE47B98FB734636889198C7 /* libPods-RVMExample.a */; };
 		F0F36E62191A845500ABC5EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F36E61191A845500ABC5EA /* Foundation.framework */; };
 		F0F36E64191A845500ABC5EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F36E63191A845500ABC5EA /* CoreGraphics.framework */; };
 		F0F36E66191A845500ABC5EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F36E65191A845500ABC5EA /* UIKit.framework */; };
@@ -19,6 +20,12 @@
 		F0F36E7D191A845500ABC5EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F36E65191A845500ABC5EA /* UIKit.framework */; };
 		F0F36E85191A845500ABC5EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0F36E83191A845500ABC5EA /* InfoPlist.strings */; };
 		F0F36E87191A845500ABC5EA /* RVMExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F36E86191A845500ABC5EA /* RVMExampleTests.m */; };
+		F0F36E91191A897400ABC5EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F36E90191A897400ABC5EA /* Main.storyboard */; };
+		F0F36E99191A8AB100ABC5EA /* RVMMasterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F36E98191A8AB100ABC5EA /* RVMMasterVC.m */; };
+		F0F36E9C191A8AC400ABC5EA /* RVMDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F36E9B191A8AC400ABC5EA /* RVMDetailVC.m */; };
+		F0F36E9F191A8AE400ABC5EA /* RVMMasterVM.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F36E9E191A8AE400ABC5EA /* RVMMasterVM.m */; };
+		F0F36EAD191A9A4800ABC5EA /* RVMDetailMinuteVM.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F36EAC191A9A4800ABC5EA /* RVMDetailMinuteVM.m */; };
+		F0F36EB0191A9AF700ABC5EA /* RVMDetailSecondVM.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F36EAF191A9AF700ABC5EA /* RVMDetailSecondVM.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		870FB3E03B12432790398072 /* Pods-RVMExample.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RVMExample.xcconfig"; path = "Pods/Pods-RVMExample.xcconfig"; sourceTree = "<group>"; };
+		BDE47B98FB734636889198C7 /* libPods-RVMExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RVMExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F36E5E191A845500ABC5EA /* RVMExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RVMExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F36E61191A845500ABC5EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F0F36E63191A845500ABC5EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +57,18 @@
 		F0F36E82191A845500ABC5EA /* RVMExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RVMExampleTests-Info.plist"; sourceTree = "<group>"; };
 		F0F36E84191A845500ABC5EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F0F36E86191A845500ABC5EA /* RVMExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RVMExampleTests.m; sourceTree = "<group>"; };
+		F0F36E90191A897400ABC5EA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F0F36E97191A8AB100ABC5EA /* RVMMasterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVMMasterVC.h; sourceTree = "<group>"; };
+		F0F36E98191A8AB100ABC5EA /* RVMMasterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVMMasterVC.m; sourceTree = "<group>"; };
+		F0F36E9A191A8AC400ABC5EA /* RVMDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVMDetailVC.h; sourceTree = "<group>"; };
+		F0F36E9B191A8AC400ABC5EA /* RVMDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVMDetailVC.m; sourceTree = "<group>"; };
+		F0F36E9D191A8AE400ABC5EA /* RVMMasterVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVMMasterVM.h; sourceTree = "<group>"; };
+		F0F36E9E191A8AE400ABC5EA /* RVMMasterVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVMMasterVM.m; sourceTree = "<group>"; };
+		F0F36EA7191A8E2B00ABC5EA /* RVMDetailVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVMDetailVM.h; sourceTree = "<group>"; };
+		F0F36EAB191A9A4800ABC5EA /* RVMDetailMinuteVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVMDetailMinuteVM.h; sourceTree = "<group>"; };
+		F0F36EAC191A9A4800ABC5EA /* RVMDetailMinuteVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVMDetailMinuteVM.m; sourceTree = "<group>"; };
+		F0F36EAE191A9AF700ABC5EA /* RVMDetailSecondVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVMDetailSecondVM.h; sourceTree = "<group>"; };
+		F0F36EAF191A9AF700ABC5EA /* RVMDetailSecondVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVMDetailSecondVM.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 				F0F36E64191A845500ABC5EA /* CoreGraphics.framework in Frameworks */,
 				F0F36E66191A845500ABC5EA /* UIKit.framework in Frameworks */,
 				F0F36E62191A845500ABC5EA /* Foundation.framework in Frameworks */,
+				7252427E746F43FC8BDE186B /* libPods-RVMExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +103,7 @@
 				F0F36E80191A845500ABC5EA /* RVMExampleTests */,
 				F0F36E60191A845500ABC5EA /* Frameworks */,
 				F0F36E5F191A845500ABC5EA /* Products */,
+				870FB3E03B12432790398072 /* Pods-RVMExample.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +123,7 @@
 				F0F36E63191A845500ABC5EA /* CoreGraphics.framework */,
 				F0F36E65191A845500ABC5EA /* UIKit.framework */,
 				F0F36E7A191A845500ABC5EA /* XCTest.framework */,
+				BDE47B98FB734636889198C7 /* libPods-RVMExample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,8 +131,11 @@
 		F0F36E67191A845500ABC5EA /* RVMExample */ = {
 			isa = PBXGroup;
 			children = (
+				F0F36E96191A8A7400ABC5EA /* Detail */,
+				F0F36E95191A8A6300ABC5EA /* Master */,
 				F0F36E70191A845500ABC5EA /* AppDelegate.h */,
 				F0F36E71191A845500ABC5EA /* AppDelegate.m */,
+				F0F36E90191A897400ABC5EA /* Main.storyboard */,
 				F0F36E73191A845500ABC5EA /* Images.xcassets */,
 				F0F36E68191A845500ABC5EA /* Supporting Files */,
 			);
@@ -144,6 +171,39 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F0F36E95191A8A6300ABC5EA /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				F0F36E9D191A8AE400ABC5EA /* RVMMasterVM.h */,
+				F0F36E9E191A8AE400ABC5EA /* RVMMasterVM.m */,
+				F0F36E97191A8AB100ABC5EA /* RVMMasterVC.h */,
+				F0F36E98191A8AB100ABC5EA /* RVMMasterVC.m */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		F0F36E96191A8A7400ABC5EA /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F0F36EA6191A8DE500ABC5EA /* ViewModel */,
+				F0F36EA7191A8E2B00ABC5EA /* RVMDetailVM.h */,
+				F0F36E9A191A8AC400ABC5EA /* RVMDetailVC.h */,
+				F0F36E9B191A8AC400ABC5EA /* RVMDetailVC.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		F0F36EA6191A8DE500ABC5EA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F0F36EAB191A9A4800ABC5EA /* RVMDetailMinuteVM.h */,
+				F0F36EAC191A9A4800ABC5EA /* RVMDetailMinuteVM.m */,
+				F0F36EAE191A9AF700ABC5EA /* RVMDetailSecondVM.h */,
+				F0F36EAF191A9AF700ABC5EA /* RVMDetailSecondVM.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0F36E8A191A845500ABC5EA /* Build configuration list for PBXNativeTarget "RVMExample" */;
 			buildPhases = (
+				F12174F71308436985CFC628 /* Check Pods Manifest.lock */,
 				F0F36E5A191A845500ABC5EA /* Sources */,
 				F0F36E5B191A845500ABC5EA /* Frameworks */,
 				F0F36E5C191A845500ABC5EA /* Resources */,
+				3D2DCA715A8A42428953E554 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,6 +250,7 @@
 		F0F36E56191A845500ABC5EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RVM;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Eduard Beleninik";
 				TargetAttributes = {
@@ -220,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0F36E6C191A845500ABC5EA /* InfoPlist.strings in Resources */,
+				F0F36E91191A897400ABC5EA /* Main.storyboard in Resources */,
 				F0F36E74191A845500ABC5EA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,12 +298,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D2DCA715A8A42428953E554 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-RVMExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F12174F71308436985CFC628 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F0F36E5A191A845500ABC5EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F0F36E72191A845500ABC5EA /* AppDelegate.m in Sources */,
+				F0F36EB0191A9AF700ABC5EA /* RVMDetailSecondVM.m in Sources */,
+				F0F36E9F191A8AE400ABC5EA /* RVMMasterVM.m in Sources */,
+				F0F36EAD191A9A4800ABC5EA /* RVMDetailMinuteVM.m in Sources */,
+				F0F36E9C191A8AC400ABC5EA /* RVMDetailVC.m in Sources */,
+				F0F36E99191A8AB100ABC5EA /* RVMMasterVC.m in Sources */,
 				F0F36E6E191A845500ABC5EA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +456,7 @@
 		};
 		F0F36E8B191A845500ABC5EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 870FB3E03B12432790398072 /* Pods-RVMExample.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -367,6 +470,7 @@
 		};
 		F0F36E8C191A845500ABC5EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 870FB3E03B12432790398072 /* Pods-RVMExample.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -437,6 +541,7 @@
 				F0F36E8C191A845500ABC5EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0F36E8D191A845500ABC5EA /* Build configuration list for PBXNativeTarget "RVMExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +550,7 @@
 				F0F36E8F191A845500ABC5EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
