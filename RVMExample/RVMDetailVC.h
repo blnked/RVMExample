@@ -13,6 +13,6 @@
 
 @interface RVMDetailVC : UIViewController
 
-@property (nonatomic, strong)  RVMViewModel<RVMDetailVM> *viewModel; // without use Protocol
+@property (nonatomic, strong) id<RVMDetailVM> viewModel;
 
 @end

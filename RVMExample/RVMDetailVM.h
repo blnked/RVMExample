@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol RVMDetailVM <NSObject>
+#import "RVMViewModelReacting.h"
+
+@protocol RVMDetailVM <NSObject, RVMViewModelReacting>
 
 - (RACSignal *)time;
 
